@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>Formulir Pendaftaran Peserta</h2>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+        <form action="submit" name="registrasi" method="post">
+            <label for="nama">Nama</label>
+            <input type="text" name="nama" id="nama"><br>
+            <label for="telepon">No. Telepon</label>
+            <input type="text" name="telepon" id="telepon"><br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email"><br>
+            <label for="alamat">Alamat</label><br>
+            <textarea cols="25" rows="4"></textarea><br>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="L">Laki-laki</option>
+                <option value="P">Perempuan</option>
+            </select><br>
+            <label for="agama">Agama</label>
+            <select name="agama" id="agama">
+                <option value="1">Islam</option>
+                <option value="2">Kristen</option>
+                <option value="3">Protestan</option>
+                <option value="4">Hindu</option>
+                <option value="5">Budha</option>
+            </select><br>
+            <label for="pekerjaan">Pekerjaan</label>
+            <select name="Pekerjaan" id="Pekerjaan">
+                <option value="pns">PNS</option>
+                <option value="polisi">Polisi</option>
+                <option value="programmer">Programmer</option>
+            </select><br>
+            <label for="pengalaman">Pengalaman</label><br>
+            <select multiple name="pengalaman">
+                <option value="guru">Guru</option>
+                <option value="instruktur">Instruktur</option>
+                <option value="tutor">Tutor</option>
+            </select><br>
+            <label for="tgllahir">Tanggal Lahir</label>
+            <input type="date" id="start" name="tgllahir" value="2024-01-01" min="2024-01-01" max="2024-12-31">
+            <br>
+            <input type="button" value="Submit">
+        </form>
+    </footer>
+
+</body>
+</html>

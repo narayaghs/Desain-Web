@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>Formulir Pendaftaran Kursus</h2>
+    </header>
+    <main>
+        <form action="submit" name="registrasi" method="post">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" name="nama" id="nama"><br>
+            <label for="tgllahir">Tanggal Lahir</label>
+            <input type="date" id="start" name="tgllahir" value="2000-01-01" min="2000-01-01" max="2010-12-31">
+            <label for="jeniskelamin">Jenis Kelamin</label>
+            <select name="jeniskelamin" id="jeniskelamin">
+                <option value="L">Laki-laki</option>
+                <option value="P">Perempuan</option>
+            </select>
+            <br>
+            <label for="asalsekolah">Asal Sekolah</label>
+            <input type="text" name="asalsekolah" id="asalsekolah">
+            <label for="kelas">Kelas</label>
+            <select name="agama" id="agama">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br>
+            <label for="alamat">Alamat</label><br>
+            <textarea cols="25" rows="4"></textarea><br>
+            <label for="telepon">No. Telepon</label>
+            <input type="text" name="telepon" id="telepon"><br>
+            <label for="namaortu">Nama Orang Tua</label>
+            <input type="text" name="namaortu" id="namaortu"><br>
+            <label for="pekerjaanortu">Pekerjaan Orang Tua</label>
+            <select name="pekerjaanortu" id="pekerjaanortu">
+                <option value="pns">PNS</option>
+                <option value="polisi">Polisi</option>
+                <option value="tentara">Tentara</option>
+                <option value="pengusaha">Pengusaha</option>
+                <option value="dokter">Dokter</option>
+                <option value="pegawaiswasta">Pegawai Swasta</option>
+                <option value="lainnya">Lainnya</option>
+            </select><br>
+            <label for="programkursus">Program Kursus</label>
+            <input type="text" name="programkursus" id="programkursus"><br>
+            <label for="harikursus">Hari Kursus</label>
+            <input type="checkbox"> Senin & Kamis
+            <input type="checkbox"> Selasa & Jumat
+            <input type="checkbox"> Rabu & Sabtu
+            <br>
+            <label for="waktukursus">Waktu Kursus</label>
+            <input type="checkbox"> 14.00-15.30
+            <input type="checkbox"> 16.00-17.30
+            <input type="checkbox"> 19.00-20.30
+            <br>
+            <input type="button" value="Submit">
+        </form>
+    </main>
+    <footer> 
+    </footer>
+</body>
+</html>
