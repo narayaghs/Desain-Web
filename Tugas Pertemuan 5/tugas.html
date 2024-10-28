@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="logo sd.png" alt="Logo" width="150">
+        <h1>Formulir Pendaftaran Lomba Mewarnai</h1>
+        <h2>Sekolah Dasar Negeri 1 Banyubiru</h2>
+    </header>
+    <main>
+        <form action="submit" name="registrasi" method="post">
+            <label for="nama">Nama</label>
+            <input type="text" name="nama" id="nama"><br>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="L">Laki-Laki</option>
+                <option value="P">Perempuan</option>
+            </select><br>
+            <label for="kelas">Kelas</label>
+            <select name="kelas" id="kelas">
+                <option value="1">Kelas 1</option>
+                <option value="2">Kelas 2</option>
+                <option value="3">Kelas 3</option>
+                <option value="4">Kelas 4</option>
+                <option value="5">Kelas 5</option>
+                <option value="6">Kelas 6</option>
+            </select><br>
+            <label for="tgl lahir">Tanggal Lahir</label>
+            <input type="date" id="start" name="tgl lahir" value="2022-01-01" min="2012-01-01" max="2022-12-31">
+            <br>
+            <label for="telepon">No. Telepon</label>
+            <input type="text" name="teelpon" id="telepon"><br>
+            <label for="alamat">Alamat</label><br>
+            <Textarea cols="25" rows="4"></Textarea><br>
+            <label for="nama orangtua">Nama Orang Tua</label>
+             <input type="text" name="nama orangtua" id="nama orangtua"><br>
+             <label for="pekerjaan orangtua">Pekerjaan Orang Tua</label>
+             <select name="pekerjaan orangtua" id="pekerjaan orangtua">
+                 <option value="pns">PNS</option>
+                 <option value="polisi">Polisi</option>
+                 <option value="karyawan swasta">Karyawan Swasta</option>
+                 <option value="Wiraswasta">Wiraswasta</option>
+             </select><br>
+            <input type="button" value="submit">
+        </form>
+    </main>
+    <footer>
+        <h2>Keterangan</h2>
+        <p>Pendaftaran tidak dipungut biaya apapun!</p>
+    </footer>
+</body>
+</html>
