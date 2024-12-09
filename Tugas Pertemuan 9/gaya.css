@@ -1,0 +1,11 @@
+p{
+    color: rgb(255, 0, 0);
+    text-align: justify;
+ }
+ a{
+     color: maroon;
+ }
+ footer,header{
+     background-color: khaki;
+     font-size: 25px;
+ }
